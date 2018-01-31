@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
-class App extends Component {
+class Dashboard extends Component {
   render() {
     return (
       <div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          HERE WE HAVE OUR BEAUTIFUL DASHBOARD
         </p>
-        <Link to='/dashboard'> I need to go to the dashboard </Link>
+        <Link to='/'> This is not beautiful, take me back to the app </Link>
       </div>
     );
   }
 }
 
-export default App;
+export default Dashboard;
